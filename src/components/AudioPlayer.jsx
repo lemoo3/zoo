@@ -105,7 +105,7 @@ const AudioPlayer = ({ track }) => {
             onPlayPauseClick={setIsPlaying}
           />
           {title}
-        </h2>lk
+        </h2>
       </div>
     </div>
   );
