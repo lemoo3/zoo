@@ -19,7 +19,7 @@ const AudioPlayer = ({ track }) => {
   // Destructure for conciseness
   const { title, image, audioSrc } = track;
 
-  // Refs
+  // Ref
   const audioRef = useRef(new Audio(audioSrc));
   const intervalRef = useRef();
 
