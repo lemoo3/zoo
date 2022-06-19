@@ -18,7 +18,6 @@ function App() {
     <ul className="list">
       {list}
     </ul>
-
     </>
   );
 }
